@@ -1,7 +1,7 @@
 # Copyright (c) 2021 Rafael Yumagulov
 # SPDX-License-Identifier: MIT
 
-if BOARD_DAO_LEFT
+if BOARD_DAO_DONGLE
 
 	config ZMK_KEYBOARD_NAME
 	default "Dao"
@@ -11,7 +11,7 @@ if BOARD_DAO_LEFT
 
 endif # BOARD_DAO_LEFT
 
-if BOARD_DAO_LEFT || BOARD_DAO_RIGHT
+if BOARD_DAO_LEFT || BOARD_DAO_RIGHT || BOARD_DAO_DONGLE
 
 config BOARD
 	default "dao"

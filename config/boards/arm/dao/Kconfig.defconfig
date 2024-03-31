@@ -10,7 +10,7 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 config ZMK_USB
-	defautl y
+	default y
 
 endif # BOARD_DAO_LEFT
 

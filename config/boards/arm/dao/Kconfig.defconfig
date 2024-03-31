@@ -9,6 +9,10 @@ if BOARD_DAO_DONGLE
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
+	config ZMK_USB
+	default y
+
+
 endif # BOARD_DAO_LEFT
 
 if BOARD_DAO_LEFT || BOARD_DAO_RIGHT || BOARD_DAO_DONGLE
